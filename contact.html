@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <h1>My profile</h1>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="calc.html">Calculator</a></li>
+      </ul>
+    </nav>
+
+    <section class="contact">
+      <h1>Contact</h1>
+      <form action="" method="post">
+        <div >
+          <label>first name</label>
+          <input
+            type="text"
+            name="first name"
+            placeholder="enter your first name"
+          />
+        </div>
+        <div>
+          <label>last name</label>
+          <input
+            type="text"
+            name="last name"
+            placeholder="enter your last name"
+          />
+        </div>
+        <div>
+          <label>email</label>
+          <input type="email" name="email" value="@gmail.com" />
+        </div>
+        <div>
+          <label>message</label>
+          <textarea
+            name="message"
+            placeholder="please enter your comment"
+          ></textarea>
+        </div>
+        <div>
+          <label></label>
+          <select name="priority">
+            <option value="high">high</option>
+            <option value="low">low</option>
+            <option value="other">medium</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
